@@ -1,4 +1,4 @@
 # Blackjack_Rust
 Blackjack in rust
 
-Just ./ the file
+Just ./ the binary release thingy or cargo build --release and then ./ the binary
