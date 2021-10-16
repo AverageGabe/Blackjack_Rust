@@ -30,8 +30,6 @@ fn main() {
                 .read_line(&mut input)
                 .expect("Please dont be retarded");
 
-            println!("{}", input);
-
             if input.trim() == "Hit" || input.trim() == "hit" {
                 let choice = cards[cards.len() - 1] as i16;
                 player_hand += choice;
